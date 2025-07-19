@@ -3,17 +3,11 @@ import React from 'react'
 // // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import variants from '../variants/Vriants';
-import ImgProfile from './kishanProfile.png'
+import ImgProfile from './kishanProfile1.png'
 // import HomeAnimation from './HomeRightAni'
 
 function HeroSection() {
 
-    const scrollToSection = (sectionId) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
 
     return (
         <section

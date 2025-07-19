@@ -50,7 +50,7 @@ function Navbar() {
           <div className="hidden md:flex gap-8 items-center">
             {[
               { label: "Home", id: "homeScreen" },
-              { label: "About", id: "Overview" },
+              { label: "About", id: "aboutScreen" },
               { label: "Skills", id: "Skills" },
               { label: "Projects", id: "Projects" },
               { label: "Contact", id: "contact" },
@@ -58,7 +58,7 @@ function Navbar() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`text-lg font-medium px-2 py-1 rounded transition-colors duration-200 focus:outline-none ${idx === 0 ? 'text-cyan-400' : 'text-white hover:text-cyan-400'}`}
+                className={`text-lg font-medium px-2 py-1 rounded transition-colors duration-200 focus:outline-none text-white hover:text-cyan-400`}
               >
                 {item.label}
               </button>
